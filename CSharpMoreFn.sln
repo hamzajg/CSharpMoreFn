@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpMoreFn", "CSharpMoreFn\CSharpMoreFn.csproj", "{553F5D5F-0799-4B33-8BA8-35614FC7D171}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{553F5D5F-0799-4B33-8BA8-35614FC7D171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{553F5D5F-0799-4B33-8BA8-35614FC7D171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{553F5D5F-0799-4B33-8BA8-35614FC7D171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{553F5D5F-0799-4B33-8BA8-35614FC7D171}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
