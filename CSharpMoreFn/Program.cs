@@ -31,10 +31,10 @@ namespace CSharpMoreFn
             }, "SAVE10");
 
             var result = OrderPipeline.Process(order);
-            result.Match(
-                invoice => Console.WriteLine($"Invoice generated: Subtotal={invoice.Subtotal:C}, Discount={invoice.Discount:C}, Tax={invoice.Tax:C}, Total={invoice.Total:C}"),
-                error => Console.WriteLine($"Processing error: {error}")
-            );
+            var summary = result.Match(
+                invoice => $"Invoice generated: Subtotal={invoice.Subtotal:C}, Discount={invoice.Discount:C}, Tax={invoice.Tax:C}, Total={invoice.Total:C}",
+                error => $"Processing error: {error}");
+            Console.WriteLine(summary);
         }
     }
 }
